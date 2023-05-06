@@ -1,9 +1,27 @@
-.container-fluid {
-    
-    padding: 0;
-    margin: 0;
-}
 
 .corpo {
-    background-image: url(imgs/burguer3.jpg);
+    background-image: url(imgs/burguer4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
+.logo {
+    width: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 90px;
+    color: #FFFF;
+}
+
+.anton {
+    font-family: Anton;
+}
+
+
