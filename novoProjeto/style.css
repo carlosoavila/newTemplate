@@ -28,7 +28,22 @@ html {
     font-family: Anton;
 }
 
+.burguer {
+    width: 50rem;
+    height: 60rem;
+}
 
+.status {
+    z-index: 10;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: anton;
+    margin: 1.5rem 1.5rem;
+}
 
 
 
