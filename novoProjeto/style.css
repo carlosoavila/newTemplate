@@ -58,6 +58,14 @@ html {
 
 }
 
+.adress {
+   
+    font-family: Quicksand;
+    font-weight: 800;
+    text-decoration: none;
+    list-style-type: none;
+}
+
 .status {
     z-index: 10;
     display: flex;
@@ -70,5 +78,52 @@ html {
     margin: 1.5rem 1.5rem;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
 
+@media(max-width: 580px) {
+    iframe {
+        width: 350px;
+        height: 180px;
+    }
 
+    .adress {
+        font-family: Quicksand;
+        font-weight: 800;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 0.7rem;
+    
+    }
+
+    .ingredients {
+        font-family: Quicksand;
+        font-weight: 800;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 1.2rem;
+    
+    }
+
+}
+
+/*@media(min-width: 768px) {
+    iframe {
+        width: 700px;
+        height: 300px;
+    }
+
+    .adress {
+        font-family: Quicksand;
+        font-weight: 800;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 1.8rem;
+    
+    }
+
+}*/
